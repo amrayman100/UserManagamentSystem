@@ -1,0 +1,12 @@
+
+  datasources:
+    jdbc-drivers:
+      com.mysql:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        driver-module-name: com.mysql
+    data-sources:
+      studentdb:
+        driver-name: com.mysql
+        connection-url: jdbc:mysql://mysql-host:3306/AUTHDB
+        user-name: root
+        password: Hotmail123
